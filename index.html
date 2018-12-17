@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+  Andrea Panaro
+  Assignment 6
+  practice taking user input from html form 
+  and creating a dynamic multiplication table 
+  in javascript and inserting it into the DOM.
+  Used multiple sites as well as helpful tips 
+  from classmates to complete this project.
+  
+-->
+<html>
+  <html lang="en">
+  <head>
+    <title>multiply</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="input">
+
+      <h2> Multiply </h2>
+      <form method="post" action= "">
+        
+       
+        <br>
+        
+
+        <div id = "userIP">
+      
+        <p> xBegin: </p>
+        <input type = "text" id = "xBegin" > 
+        <p> xEnd: </p>
+        <input type = "text" id = "xEnd" > 
+        <p> yBegin: </p>
+        <input type = "text" id = "yBegin" > 
+        <p> yEnd: </p>
+        <input type = "text" id = "yEnd" > 
+        </br>
+        <button type = "button" onclick = "display()">Display</button> 
+        <button type = "button" onclick = "enterNew()">New Table</button> 
+      </form>
+    </div>
+    <div id="target"></div>
+      <script src="script.js"></script>
+    </body>
+</html>
